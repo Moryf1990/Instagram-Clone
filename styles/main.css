@@ -6,7 +6,6 @@
   margin-left: 4em; }
 
 form {
-  background: green;
   padding-top: 2em;
   padding-left: 2em;
   padding-right: 2em;
@@ -47,6 +46,29 @@ form {
   border-radius: 0.5em; }
 
 section {
-  background: grey; }
+  background: #E0E1E2;
+  padding: 0 2em; }
+
+.photobooth {
+  text-align: center;
+  overflow: hidden;
+  background: #E0E1E2;
+  border-top: none; }
+
+@media (min-width: 800px) {
+  .photobooth {
+    text-align: center;
+    overflow: hidden;
+    border: 1px solid #D6D7D8;
+    border-top: none;
+    background: #E0E1E2; }
+
+  section {
+    background: #EDEEEF;
+    padding: 0 10em; }
+
+  .toggle-button {
+    height: 40px;
+    width: 40px; } }
 
 /*# sourceMappingURL=main.css.map */
