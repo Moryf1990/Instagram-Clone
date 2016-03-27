@@ -55,6 +55,13 @@ section {
   background: #E0E1E2;
   border-top: none; }
 
+.caption-section {
+  background: #fff; }
+
+div {
+  background: #fff;
+  color: #ACB4B8; }
+
 @media (min-width: 800px) {
   .photobooth {
     text-align: center;
