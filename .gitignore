@@ -3,6 +3,7 @@
 
 ### OSX ###
 .DS_Store
+/node_modules
 .AppleDouble
 .LSOverride
 
