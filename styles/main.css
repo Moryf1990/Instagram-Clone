@@ -59,8 +59,9 @@ section {
   background: #fff; }
 
 div {
-  background: #fff;
-  color: #ACB4B8; }
+  background: #E0E1E2;
+  color: black;
+  overflow: hidden; }
 
 @media (min-width: 800px) {
   .photobooth {
@@ -76,6 +77,11 @@ div {
 
   .toggle-button {
     height: 40px;
-    width: 40px; } }
+    width: 40px; }
+
+  div {
+    background: #fff;
+    color: #ACB4B8;
+    overflow: hidden; } }
 
 /*# sourceMappingURL=main.css.map */
