@@ -60,8 +60,7 @@ section {
 
 div {
   background: #E0E1E2;
-  color: black;
-  overflow: hidden; }
+  color: black; }
 
 @media (min-width: 800px) {
   .photobooth {
@@ -81,7 +80,6 @@ div {
 
   div {
     background: #fff;
-    color: #ACB4B8;
-    overflow: hidden; } }
+    color: #ACB4B8; } }
 
 /*# sourceMappingURL=main.css.map */
