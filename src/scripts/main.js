@@ -55,7 +55,7 @@ $.get(
 	url,
 	(response) => {
 		response.forEach ((result, index) => {
-            photoBooth.append(`<img src="`+result.url+`" width=80%, height=50%>` + `<div>`+result.caption+`</div>`);
+            photoBooth.append(`<img src="${result.url}" width=80%, height=50%> <div>${result.caption}</div>`);
 		});
 	}
 );
@@ -69,7 +69,7 @@ imageButton.on(`click`,(e) => {
 		url,
 		{url: newInput, caption: newText},
 		(result) => {
-			photoBooth.append(`<img src="`+result.url+`">` + `<div">`+result.caption+`</div>`);
+			photoBooth.append(`<img src="${result.url}">` + `<div">${result.caption}</div>`);
 			input.val(``);
 			text.val(``);
 		},
